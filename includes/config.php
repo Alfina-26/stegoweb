@@ -4,10 +4,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 if (!defined('DB_HOST')) {
-    define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', '');
-    define('DB_NAME', 'stegoweb');
+    define('DB_HOST', 'sql107.byethost5.com');
+    define('DB_USER', 'b5_42001145');
+    define('DB_PASS', 'pina1234');
+    define('DB_NAME', 'b5_42001145');
     define('UPLOAD_DIR', __DIR__ . '/../assets/uploads/stego/');
     define('MAX_FILE_SIZE', 5 * 1024 * 1024);
     define('ALLOWED_TYPES', ['image/png', 'image/bmp']);
